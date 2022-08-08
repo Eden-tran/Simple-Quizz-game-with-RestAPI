@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css.css">
+
+<title>Quizz</title>
+</head>
+
+<body>
+    <div class="app" id="app">
+        <h2 id="quizz">Sport Quizz</h2>
+        <div class="content" id="content">
+            <h2 id="title"> </h2>
+            <ol type="A">
+                <li>
+                    <input type="radio" class="answer" value="A" name="answer" id="inpAnswerA">
+                    <label for="inpAnswerA" id="AnswerA"></label>
+                </li>
+                <li>
+                    <input type="radio" class="answer" value="B" name="answer" id="inpAnswerB">
+                    <label for="inpAnswerB" id="AnswerB"></label>
+
+                </li>
+                <li>
+                    <input type="radio" class="answer" value="C" name="answer" id="inpAnswerC">
+                    <label for="inpAnswerC" id="AnswerC"></label>
+
+                </li>
+            </ol>
+            <input type="hidden" id="CorrectAnswer">
+            <input type="hidden" id="TotalQues">
+            <button id="nextQues">câu kế tiếp</button>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
